@@ -43,7 +43,6 @@ function LandingPage() {
               </TextContainer>
 
               <TextContainer>
-
                 <p> Fancy seeing you here 💅 We've sent you a little treat that we hope will inspire you and give you the extra something to continue kicking ass 💪 </p>
                 <p> In the package is a Shopify counter that will update everytime you make a sale 💸</p>
                 <p> Now! Here is the twist, to get it up and running we need to take a journey together 🗺 </p>
@@ -67,21 +66,21 @@ function LandingPage() {
             <SectionOne idNumber={TestUser.id_number}/>
           </Layout.Section>
           <Layout.Section>
-          <div className="intro">
-          <p> · </p>
-          <p> · </p>
-          <p> · </p>
-          </div>
+            <div className="intro">
+              <p> · </p>
+              <p> · </p>
+              <p> · </p>
+            </div>
           </Layout.Section>
           <Layout.Section>
             <SectionTwo storeUrl={TestUser.store}/>
           </Layout.Section>
           <Layout.Section>
-          <div className="intro">
-          <p> · </p>
-          <p> · </p>
-          <p> · </p>
-          </div>
+            <div className="intro">
+              <p> · </p>
+              <p> · </p>
+              <p> · </p>
+            </div>
           </Layout.Section>
           <Layout.Section>
             <SectionThree />
